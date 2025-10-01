@@ -34,7 +34,7 @@ public class View extends JFrame{
         g.fillRect(0,0,getWidth(),getHeight());
         //paint
         g.setColor(Color.pink);
-        g.drawArc(testx,testy,100,100,20,80);
+        g.drawArc(testx,testy,100,100,90,90);
     }
 
     public void initTimer(int fps) {
